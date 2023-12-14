@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas dos Alunos - Senai</title>
+    <!-- Adicionando Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos adicionais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-brand img {
+            max-height: 50px;
+            max-width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/download.png" alt="Logo Senai">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Outra Página</a>
+                    </li>
+                    <!-- Adicione mais itens de menu conforme necessário -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+        <h1>Notas dos Alunos</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr class="table-active">
+                    <th scope="col">Nome</th>
+                    <th scope="col">N1</th>
+                    <th scope="col">N2</th>
+                    <th scope="col">N3</th>
+                    <th scope="col">N4</th>
+                    <th scope="col">N5</th>
+                    <th scope="col">Média Final</th>
+                    <th scope="col">Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Exemplo de dados dos alunos -->
+                <tr>
+                    <td>Wilson</td>
+                    <td>7.5</td>
+                    <td>8.0</td>
+                    <td>6.5</td>
+                    <td>9.0</td>
+                    <td>7.0</td>
+                    <td>7.8</td>
+                    <td class="table-success">Aprovado</td>
+                </tr>
+                <tr>
+                    <td>William</td>
+                    <td>6.0</td>
+                    <td>7.5</td>
+                    <td>8.0</td>
+                    <td>7.0</td>
+                    <td>6.5</td>
+                    <td>7.0</td>
+                    <td class="table-success">Aprovado</td>
+                </tr>
+                <!-- Adicione mais linhas para mais alunos conforme necessário -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Adicionando Bootstrap JS (opcional, se necessário para funcionalidades específicas) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
